@@ -1,1 +1,1 @@
-console.log("hg");
+alert("Ta strona nie używa ciasteczek");

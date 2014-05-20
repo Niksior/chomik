@@ -32,11 +32,11 @@
 		1. Dzieli przedział liczbowy na podprzedziały (kubełki)<BR>
 		2. Przypisuje liczby z sortowanej tablicy do odpowiednich kubełków<BR>
 		3. Sortuje liczby w niepustych kubełkach<BR><BR><BR>
-		<img src="blok.jpg"><BR><BR><BR>
+		<img src="blok.jpg" width="60%" height="90%"><BR><BR><BR>
 		SZCZEGÓŁOWY OPIS ALGORYTMU<BR><BR><BR>
-		I. Określamy zakres wartości, jakie mogą przyjmować elementy sortowanego zbioru. Niech w(min) oznacza najmniejszą wartość, a w(max) niech oznacza wartość największą.<BR><BR>
+		I. Określamy zakres wartości, jakie mogą przyjmować elementy sortowanego zbioru.<BR><BR>
 		II. Dla każdej możliwej wartości przygotowujemy kubełek-licznik, który będzie zliczał ilość wystąpień tej wartości w sortowanym zbiorze. <BR>Liczba liczników jest równa (wmax - wmin + 1). Każdy licznik jest początkowo ustawiony na wartość zero.<BR><BR>
-		III. Przeglądamy kolejno elementy zbioru od pierwszego do ostatniego. <BR>Dla każdego elementu zbioru zwiększamy o jeden zawartość licznika o numerze równym wartości elementu. <BR>Na przykład, jeśli kolejny element zbioru ma wartość 3, to zwiększamy licznik o numerze 3. W efekcie po przeglądnięciu wszystkich elementów zbioru liczniki będą zawierały ilość wystąpień każdej z możliwych wartości. Jeśli dany licznik zawiera 0, to wartość równa numerowi licznika w zbiorze nie występuje. Inaczej wartość ta występuje tyle razy, ile wynosi zawartość jej licznika.<BR><BE>
+		III. Przeglądamy kolejno elementy zbioru od pierwszego do ostatniego. <BR>Dla każdego elementu zbioru zwiększamy o jeden zawartość licznika o numerze równym wartości elementu. <BR>Na przykład, jeśli kolejny element zbioru ma wartość 3, to zwiększamy licznik o numerze 3. W efekcie po przeglądnięciu wszystkich elementów zbioru liczniki będą zawierały ilość wystąpień każdej z możliwych wartości. Jeśli dany licznik zawiera 0, to wartość równa numerowi licznika w zbiorze nie występuje. Inaczej wartość ta występuje tyle razy, ile wynosi zawartość jej licznika.<BR><BR>
 		IV. Przeglądamy kolejne liczniki zapisując do zbioru wynikowego ich numery tyle razy, ile wynosi ich zawartość. Zbiór wyjściowy będzie posortowany.<BR><BR><BR>
 	</tro>
 

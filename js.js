@@ -1,1 +1,1 @@
-alert("Ta strona NIE używa ciasteczek");
+//alert("Ta strona NIE używa ciasteczek");

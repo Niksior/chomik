@@ -1,31 +1,33 @@
 body {
-	font-family: Geneva,Arial,Helvetica,sans-serif;
+	font-family: Geneva,Arial,Helvetica,sans-serif,Mono;
 	margin: 0px auto;
 	max-width:900px;
-	border: 1px solid #696;
-	border-color:#0d4901;
+	border: 1px solid #dbc610;
+	border-color:#daed3e;
 	padding: 0px 0;
 	text-align: center; 
 	width: 2000px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	-webkit-box-shadow: #666 5px 4px 3px;
-	-moz-box-shadow: #666 5px 4px 3px;
-	box-shadow: #666 5px 4px 3px;
+	-webkit-box-shadow: #fff17c 10px 10px 80px;
+	-moz-box-shadow: #fff17c 10px 10px 80px;
+	-ms-box-shadow: #fff17c 10px 10px 80px;
+	-o-box-shadow: #fff17c 10px 10px 80px;
+	box-shadow: #fff17c 10px 10px 80px;
 
-	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#670505), to(#A00505));
-	background: -webkit-linear-gradient(#670505, #A00505);
-	background: -moz-linear-gradient(#670505, #A00505);
-	background: -ms-linear-gradient(#670505, #A00505);
-	background: -o-linear-gradient(#670505, #A00505);
-	background: linear-gradient(#670505, #A00505);
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#1877f8), to(#004eb8));
+	background: -webkit-linear-gradient(#1877f8, #004eb8);
+	background: -moz-linear-gradient(#1877f8, #004eb8);
+	background: -ms-linear-gradient(#1877f8, #004eb8);
+	background: -o-linear-gradient(#1877f8, #004eb8);
+	background: linear-gradient(#1877f8, #004eb8);
 }
 
 header {
-	background-color:#670505;
+	background-color:#1877f8;
 	display:block;
-	color:#0d4901;
+	color:#dc13a1;
 	text-align:center;
 	cursor:move;
 	float:center;
@@ -38,14 +40,14 @@ header h2 {
 h1 {
 	font-size: 72px;
 	margin: 0px;
-	color: #15ce15;
+	color: #bc1861;
 }
 
 h2 {
 	font-size: 28px;
 	margin: 0px;
 	text-align:center;
-	color: #eeec63;
+	color: #e7c748;
 }
 
 h3 {
@@ -57,7 +59,7 @@ h3 {
 
 h4 {
 	color: #a8a730;
-	background-color: #a00505;
+	background-color: #004eb8;
 	-webkit-box-shadow: 2px 2px 20px #888;
 	-webkit-transform: rotate(-45deg);
 	-moz-box-shadow: 2px 2px 20px #888;
@@ -71,7 +73,7 @@ h4 {
 
 h5 {
 	color: #a8a730;
-	background-color: #a00505;
+	background-color: #004eb8;
 	-webkit-box-shadow: 2px 2px 20px #888;
 	-webkit-transform: rotate(45deg);
 	-moz-box-shadow: 2px 2px 20px #888;
@@ -104,4 +106,31 @@ table {
     BORDER-LEFT: #ff9933 1px outset; PADDING-TOP: 1px;
     BORDER-BOTTOM: #ff9933 1px outset;
     BACKGROUND-COLOR: #ffcc66;
+}
+
+nav {
+	display:block;
+	width: 25%;
+	float: left;
+	color: #883e3e;
+	font-size: 30px;
+}
+
+nav a:link, nav a:visited{
+	display:block;
+	border-bottom: 3px solid #fff;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 5px;
+}
+
+nav a:hover {
+	color: white;
+	background-color: #F47D31;
+}
+
+nav h3 {
+	margin: 15px;
+	color: white;
 }

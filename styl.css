@@ -1,5 +1,5 @@
 body {
-	font-family: Geneva,Arial,Helvetica,sans-serif,Mono;
+	font-family: 'Titillium Web', sans-serif;
 	margin: 0px auto;
 	max-width:900px;
 	border: 1px solid #dbc610;
@@ -41,6 +41,12 @@ h1 {
 	font-size: 72px;
 	margin: 0px;
 	color: #bc1861;
+}
+
+h1 a:link, h1 a:visited{
+	font-size: 72px;
+	margin: 0px;
+	color: #e71171;
 }
 
 h2 {

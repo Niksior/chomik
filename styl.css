@@ -47,6 +47,7 @@ h1 a:link, h1 a:visited{
 	font-size: 72px;
 	margin: 0px;
 	color: #e71171;
+	text-decoration: none;
 }
 
 h2 {

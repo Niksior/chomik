@@ -11,3 +11,11 @@ function imie()
 	
 	  document.getElementById("wys").innerHTML = k;
 }
+
+var a=0;
+
+function lvl()
+{
+	a++;
+	document.getElementById("wlvl").innerHTML = "Poziom tej strony wynosi " + a;
+}

@@ -17,5 +17,5 @@ var a=0;
 function lvl()
 {
 	a++;
-	document.getElementById("wlvl").innerHTML = "Poziom tej strony wynosi " + a;
+	document.getElementById("wlvl").innerHTML = "Poziom tej strony jest równy poziomowi Twojego umusłu czyli " + a;
 }

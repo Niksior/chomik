@@ -25,32 +25,48 @@ body {
 }
 
 header {
-	background-color:#1877f8;
-	display:block;
-	color:#dc13a1;
-	text-align:center;
-	cursor:move;
-	float:center;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#0051c0), to(#0045a3));
+	background: -webkit-linear-gradient(#0051c0, #0045a3);
+	background: -moz-linear-gradient(#0051c0, #0045a3);
+	background: -ms-linear-gradient(#0051c0, #0045a3);
+	background: -o-linear-gradient(#0051c0, #0045a3);
+	background: linear-gradient(#0051c0, #0045a3);
+
+	-webkit-box-shadow: #fff17c 10px 0px 80px;
+	-moz-box-shadow: #fff17c 10px 0px 80px;
+	-ms-box-shadow: #fff17c 10px 0px 80px;
+	-o-box-shadow: #fff17c 10px 0px 80px;
+	box-shadow: #fff17c 10px 0px 80px;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+	display: block;
+	color: #dc13a1;
+	text-align: center;
+	cursor: move;
+	float: center;
 }
 
 header h2 {
 	margin: 0px;
 }
 
-h1 {
+h2 {
 	font-size: 72px;
 	margin: 0px;
 	color: #bc1861;
 }
 
-h1 a:link, h1 a:visited{
+h2 a:link, h2 a:visited{
 	font-size: 72px;
 	margin: 0px;
 	color: #e71171;
 	text-decoration: none;
 }
 
-h2 {
+h1 {
 	font-size: 28px;
 	margin: 0px;
 	text-align:center;
@@ -64,7 +80,7 @@ h3 {
 	color: #cdcc51;
 }
 
-h4 {
+lCorner {
 	color: #a8a730;
 	background-color: #004eb8;
 	-webkit-box-shadow: 2px 2px 20px #888;
@@ -78,7 +94,7 @@ h4 {
 	text-align:center;
 }
 
-h5 {
+rCorner {
 	color: #a8a730;
 	background-color: #004eb8;
 	-webkit-box-shadow: 2px 2px 20px #888;
@@ -117,7 +133,7 @@ table {
 }
 
 nav {
-	display:block;
+	display: block;
 	width: 25%;
 	float: left;
 	color: #883e3e;
@@ -131,6 +147,7 @@ nav a:link, nav a:visited{
 	text-decoration: none;
 	font-weight: bold;
 	margin: 5px;
+	color: #f66363;
 }
 
 nav a:hover {

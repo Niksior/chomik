@@ -19,36 +19,59 @@
 
 <body>
 	<script src="js2.js"></script>
-	<h2>Różne rzeczy dziwne i nie tylko....</h2>
-	
-	<h4>
-		<input onclick="lvl()" type="button" value="Lvl-uj stronę" name="hihi">
-	</h4>
 
-	<h5>
-		<a href="https://github.com/Niksior"><img src="fork2.png"></a>
-	</h5>
+	<header>
 
-	<h1>
-		1. Sortowanie kubełkowe<BR>
-		<a href="\chomik\kub\" ><img src="kubel.jpg"></a>
-	</h1>
+		<h1>Różne rzeczy dziwne i nie tylko....</h1>
 
-	<h1>
-		<a href="\chomik\ind\">hehehehe</a>
-	</h1>
+		<lCorner>
+			<input onclick="lvl()" type="button" value="LvL UP" name="hihi">
+		</lCorner>
 
-	<h2>
-		
-	</h2>
+		<rCorner>
+			<a href="https://github.com/Niksior"><img src="fork2.png"></a>
+		</rCorner>
 
-	<tro id="wlvl">Poziom tej strony jest równy poziomowi Twojego umusłu czyli 0</tro>
+	</header>
 
-	<h2>
-		<input onclick="imie()" type="button" value="Ja" name="B1">
-	</h2>
+	<div id="container">
 
-	<tro id="wys">......</tro>
+		<nav>
+			<h3>Nav</h3>
+			<a href="\chomik\kub\">Sortowanie kubełkowe</a>
+			<a href="\chomik\ind\">hehehehe</a>
+		</nav>
 
+		<section>
+			<article>
+				<header>
+					<h1>A to ciekawe...</h1>
+				</header>
+
+				<p id="wlvl">Poziom tej strony jest równy poziomowi Twojego umusłu czyli 0</p>
+				<p><input onclick="imie()" type="button" value="Ja" name="B1"></p>
+				<footer>
+					<tro id="wys">...</tro>
+				</footer>
+			</article>
+			<article>
+				<header>
+					<h1>Chomik</h1>
+				</header>
+				<p>Bo wszystkie chomiki to jedna rodzina!</p>
+				<footer>
+					<h2>Świnka morska</h2>
+				</footer>
+			</article>
+		</section>
+
+		<aside>
+			<h3>Aside</h3>
+			<p>Hanjitsu no<br>kan o enoki ni<br>semi no ari</p>
+		</aside>
+		<footer>
+			<h2>Stopka</h2>
+		</footer>
+	</div>
 </body>
 </html>

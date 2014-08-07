@@ -29,13 +29,13 @@ header {
 	background: -webkit-linear-gradient(#0051c0, #0045a3);
 	background: -moz-linear-gradient(#0051c0, #0045a3);
 	background: -ms-linear-gradient(#0051c0, #0045a3);
-	background: -o-linear-gradient(#0051c0, #0045a3);
+	background: o-linear-gradient(#0051c0, #0045a3);
 	background: linear-gradient(#0051c0, #0045a3);
 
 	-webkit-box-shadow: #fff17c 10px 0px 80px;
 	-moz-box-shadow: #fff17c 10px 0px 80px;
 	-ms-box-shadow: #fff17c 10px 0px 80px;
-	-o-box-shadow: #fff17c 10px 0px 80px;
+	o-box-shadow: #fff17c 10px 0px 80px;
 	box-shadow: #fff17c 10px 0px 80px;
 
 	-webkit-border-radius: 10px;
@@ -53,30 +53,30 @@ header h2 {
 	margin: 0px;
 }
 
-h2 {
+h1 {
 	font-size: 72px;
 	margin: 0px;
+	color: #e7c748;
+}
+
+h2 {
+	font-size: 24px;
+	margin: 0px;
+	text-align: center;
 	color: #bc1861;
 }
 
 h2 a:link, h2 a:visited{
-	font-size: 72px;
+	font-size: 24px;
 	margin: 0px;
 	color: #e71171;
 	text-decoration: none;
 }
 
-h1 {
-	font-size: 28px;
-	margin: 0px;
-	text-align:center;
-	color: #e7c748;
-}
-
 h3 {
 	font-size: 18px;
 	margin: 0px;
-	text-align:center;
+	text-align: center;
 	color: #cdcc51;
 }
 
@@ -108,13 +108,6 @@ rCorner {
 	text-align:center;
 }
 
-h6 {
-	font-size: 18px;
-	margin: 0px;
-	text-align:center;
-	color: #cdcc51;
-}
-
 tro {
 	font-family: 'Oswald', sans-serif;
 	font-size: 25px;
@@ -141,7 +134,7 @@ nav {
 }
 
 nav a:link, nav a:visited{
-	display:block;
+	display: block;
 	border-bottom: 3px solid #fff;
 	padding: 10px;
 	text-decoration: none;
@@ -158,4 +151,80 @@ nav a:hover {
 nav h3 {
 	margin: 15px;
 	color: white;
+}
+
+#container {
+	background-color: #888;
+}
+
+article {
+	background-color: #eee;
+	display: block;
+	margin: 10px;
+	padding: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 2px 2px 20px #888;
+	-webkit-transform: rotate(-10deg);
+	-moz-box-shadow: 2px 2px 20px #888;
+	-moz-transform: rotate(-10deg);
+}
+
+article header {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+article footer {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+article h1 {
+	font-size: 18px;
+}
+
+aside {
+	display: block;
+	width: 25%;
+	float: left;
+}
+
+aside h3 {
+	margin: 15px;
+	color: white;
+}
+
+aside p {
+	margin: 15px;
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+}
+
+footer {
+	clear: both;
+	display: block;
+	background-color: #F47D31;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 15px;
+}
+
+footer h2 {
+	font-size: 15px;
+	color: white;
+}
+
+a {
+	color: #F47D31;
+}
+
+a:hover {
+	text-decoration: underline;
 }

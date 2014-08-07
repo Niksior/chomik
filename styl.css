@@ -2,25 +2,25 @@ body {
 	font-family: 'Titillium Web', sans-serif;
 	margin: 0px auto;
 	max-width:900px;
-	border: 1px solid #dbc610;
+	border: solid;
 	border-color:#daed3e;
-	padding: 0px 0;
-	text-align: center; 
-	width: 2000px;
+
+	
+	
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	-webkit-box-shadow: #fff17c 10px 10px 80px;
 	-moz-box-shadow: #fff17c 10px 10px 80px;
 	-ms-box-shadow: #fff17c 10px 10px 80px;
-	-o-box-shadow: #fff17c 10px 10px 80px;
+	o-box-shadow: #fff17c 10px 10px 80px;
 	box-shadow: #fff17c 10px 10px 80px;
 
 	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#1877f8), to(#004eb8));
 	background: -webkit-linear-gradient(#1877f8, #004eb8);
 	background: -moz-linear-gradient(#1877f8, #004eb8);
 	background: -ms-linear-gradient(#1877f8, #004eb8);
-	background: -o-linear-gradient(#1877f8, #004eb8);
+	background: o-linear-gradient(#1877f8, #004eb8);
 	background: linear-gradient(#1877f8, #004eb8);
 }
 
@@ -46,7 +46,7 @@ header {
 	color: #dc13a1;
 	text-align: center;
 	cursor: move;
-	float: center;
+	
 }
 
 header h2 {
@@ -64,13 +64,6 @@ h2 {
 	margin: 0px;
 	text-align: center;
 	color: #bc1861;
-}
-
-h2 a:link, h2 a:visited{
-	font-size: 24px;
-	margin: 0px;
-	color: #e71171;
-	text-decoration: none;
 }
 
 h3 {
@@ -114,15 +107,6 @@ tro {
 	margin: 0px;
 	text-align:center;
 	color: #99CC33;
-}
-
-table {
-	BORDER-RIGHT: #ff9933 1px outset;
-    PADDING-RIGHT: 4px; BORDER-TOP: #ff9933 1px outset;
-    PADDING-LEFT: 4px; PADDING-BOTTOM: 1px;
-    BORDER-LEFT: #ff9933 1px outset; PADDING-TOP: 1px;
-    BORDER-BOTTOM: #ff9933 1px outset;
-    BACKGROUND-COLOR: #ffcc66;
 }
 
 nav {

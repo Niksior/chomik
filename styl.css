@@ -112,7 +112,7 @@ tro {
 nav {
 	display: block;
 	width: 25%;
-	float: left;
+	float: right;
 	color: #883e3e;
 	font-size: 30px;
 }
@@ -144,6 +144,8 @@ nav h3 {
 article {
 	background-color: #eee;
 	display: block;
+	max-width: 620px;
+	float: center;
 	margin: 10px;
 	padding: 10px;
 	-webkit-border-radius: 10px;
@@ -176,7 +178,7 @@ article h1 {
 aside {
 	display: block;
 	width: 25%;
-	float: left;
+	float: right;
 }
 
 aside h3 {

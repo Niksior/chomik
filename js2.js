@@ -19,3 +19,9 @@ function lvl()
 	a++;
 	document.getElementById("wlvl").innerHTML = "Poziom tej strony jest równy poziomowi Twojego umusłu czyli " + a;
 }
+
+document.getElementById("findHover").onclick = function() {
+	var hovered = document.querySelector("td:hover"); conlose.log("heveredd");
+	if (hovered)
+		document.getElementById("hoverResult").innerHTML = hovered.innerHTML;
+}

@@ -1,3 +1,4 @@
+
 body {
 	font-family: 'Titillium Web', sans-serif;
 	margin: 0px auto;
@@ -113,7 +114,7 @@ nav {
 	display: block;
 	width: 25%;
 	float: right;
-	color: #883e3e;
+	color: #960000;
 	font-size: 30px;
 }
 
@@ -124,7 +125,7 @@ nav a:link, nav a:visited{
 	text-decoration: none;
 	font-weight: bold;
 	margin: 5px;
-	color: #f66363;
+	color: #960000;
 }
 
 nav a:hover {
@@ -196,7 +197,7 @@ aside p {
 footer {
 	clear: both;
 	display: block;
-	background-color: #F47D31;
+	background-color: #960000;
 	color: #FFFFFF;
 	text-align: center;
 	padding: 15px;

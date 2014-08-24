@@ -19,3 +19,4 @@ function lvl()
 	a++;
 	document.getElementById("wlvl").innerHTML = "Poziom tej strony jest równy poziomowi Twojego umusłu czyli " + a;
 }
+

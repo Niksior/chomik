@@ -18,6 +18,17 @@
 <body>
 
 
+ 
+<script>
+
+try {
+	document.createElement("canvas").getContext("2d");
+	document.getElementById("support").innerHTML="Wspiera.";
+} catch (e) {
+	document.getElementById("support").innerHTML="Nie wspiera.";
+}
+
+</script>
 
 
 <h2>
@@ -25,5 +36,6 @@
 </h2>
 
 </body>
+
 
 </html>

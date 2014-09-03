@@ -4,6 +4,11 @@
 if (Modernizr.canvas) {
   //Najs
 } else {
-  alert("Twoja przegląarka nie obsługuje HTML5. Zaktualizuj ją aby strona prawidłowo się wyświetlała.");
+  alert("Your browes does not support canvas. Please update it.");
 }
 
+if (Modernizr.geolocation) {
+  //Najs
+} else {
+  alert("Your browes does not support GPS. Please update it.");
+}

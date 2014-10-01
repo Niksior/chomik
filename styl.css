@@ -4,7 +4,7 @@ body {
 	margin: 0px auto;
 	max-width:900px;
 	border: solid;
-	border-color:#daed3e;
+	border-color:#eeff41;
 
 	
 	
@@ -17,12 +17,12 @@ body {
 	o-box-shadow: #fff17c 10px 10px 80px;
 	box-shadow: #fff17c 10px 10px 80px;
 
-	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#1877f8), to(#004eb8));
-	background: -webkit-linear-gradient(#1877f8, #004eb8);
-	background: -moz-linear-gradient(#1877f8, #004eb8);
-	background: -ms-linear-gradient(#1877f8, #004eb8);
-	background: o-linear-gradient(#1877f8, #004eb8);
-	background: linear-gradient(#1877f8, #004eb8);
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#00acc1), to(#0097a7));
+	background: -webkit-linear-gradient(#00acc1, #0097a7);
+	background: -moz-linear-gradient(#00acc1, #0097a7);
+	background: -ms-linear-gradient(#00acc1, #0097a7);
+	background: o-linear-gradient(#00acc1, #0097a7);
+	background: linear-gradient(#00acc1, #0097a7);
 }
 
 header {

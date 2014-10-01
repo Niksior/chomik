@@ -52,6 +52,8 @@ function createCanopyPath(context) {
 	context.lineTo(25, -60);
 
 	context.closePath();
+	
+	context.fillStyle = '#26a69a'
 }
 
 window.addEventListener("load", drawDiagonal, true);

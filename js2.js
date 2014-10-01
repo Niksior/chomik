@@ -53,7 +53,7 @@ function createCanopyPath(context) {
 
 	context.closePath();
 	
-	context.fillStyle = '#26a69a'
+	
 }
 
 window.addEventListener("load", drawDiagonal, true);
@@ -70,6 +70,7 @@ function drawTrails() {
 	context.lineWidth = 5;
 	context.lineJoin = 'round';
 	context.strokeStyle = '#28f10d';
+	context.fillStyle = '#26a69a';
 	context.stroke();
 	context.restore();
 }

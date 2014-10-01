@@ -70,6 +70,7 @@ function drawTrails() {
 	context.lineWidth = 5;
 	context.lineJoin = 'round';
 	context.fillStyle = '#00695c';
+	context.fill();
 	context.strokeStyle = '#80cbc4';
 	context.stroke();
 	context.restore();

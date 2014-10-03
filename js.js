@@ -19,7 +19,7 @@ var d=100;
 
 
 function dead(){
-	var k=HA;
+	var k='HA';
 	var a;
 	if(d==0)
 	{

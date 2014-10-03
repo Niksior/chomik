@@ -24,7 +24,7 @@ function dead(){
 	if(d==0)
 	{
 		a='HA ' + k;
-		documeny.getElementById('death').innerHTML = a;
+		document.getElementById('death').innerHTML = a;
 	};
 	
 } 

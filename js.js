@@ -12,3 +12,18 @@ if (Modernizr.geolocation) {
 } else {
   alert("Your browes does not support GPS. Please update it.");
 }
+
+var d;
+
+
+function death(){
+	var k=HA;
+	var a;
+	d=0;
+	do
+	{
+		a='HA ' + k;
+		documeny.getElementById('death') = a;
+	}
+	while(d==0);
+} 

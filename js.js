@@ -18,7 +18,7 @@ if (Modernizr.geolocation) {
 var d=100;
 
 
-function death(){
+function dead(){
 	var k=HA;
 	var a;
 	if(d==0)

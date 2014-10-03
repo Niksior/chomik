@@ -27,5 +27,5 @@ function death(){
 		a='HA ' + k;
 		documeny.getElementById('death') = a;
 	}
-	while(d==0);
+	while(d!=0);
 } 

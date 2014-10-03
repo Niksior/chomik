@@ -21,10 +21,12 @@ var d=100;
 function dead(){
 	var k='HA';
 	var a;
-	if(d==0)
+	do
 	{
 		a='HA ' + k;
 		document.getElementById('death').innerHTML = a;
-	};
+		d++
+	}
+	while(d==0);
 	
 } 

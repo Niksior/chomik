@@ -25,7 +25,7 @@ function dead(){
 	{
 		a='HA ' + k;
 		document.getElementById('death').innerHTML = a;
-		d++
+		console.log="kupa";
 	}
 	while(d==0);
 	

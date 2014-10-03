@@ -13,6 +13,8 @@ if (Modernizr.geolocation) {
   alert("Your browes does not support GPS. Please update it.");
 }
 
+
+
 var d;
 
 

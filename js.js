@@ -15,17 +15,16 @@ if (Modernizr.geolocation) {
 
 
 
-var d;
+var d=100;
 
 
 function death(){
 	var k=HA;
 	var a;
-	d=0;
-	do
+	if(d==0)
 	{
 		a='HA ' + k;
-		documeny.getElementById('death') = a;
-	}
-	while(d!=0);
+		documeny.getElementById('death').innerHTML = a;
+	};
+	
 } 

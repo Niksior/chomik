@@ -47,7 +47,7 @@ lCorner {
 	-webkit-transform: rotate(-45deg);
 	-moz-box-shadow: 2px 2px 20px #888;
 	-moz-transform: rotate(-45deg);
-	position: absolute;
+	position: fixed;
 	padding: 0px 150px;
 	top: 50px;
 	left: -120px;
@@ -61,7 +61,7 @@ rCorner {
 	-webkit-transform: rotate(45deg);
 	-moz-box-shadow: 2px 2px 20px #888;
 	-moz-transform: rotate(45deg);
-	position: absolute;
+	position: fixed;
 	padding: 0px 150px;
 	top: -30px;
 	right: -200px;

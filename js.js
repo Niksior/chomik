@@ -29,4 +29,15 @@ function dead(){
 	}
 	while(d==0);
 	
-} 
+}
+
+function dead2(){
+	var k=0.1;
+	var a;
+	do
+	{
+		a=0.1 + k;
+		if(a==10) console.log="tan";
+	}
+	while(a==100);
+}

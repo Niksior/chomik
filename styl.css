@@ -3,11 +3,11 @@ body {
 	font-family: 'Titillium Web', sans-serif;
 	margin: 0px auto;
 	max-width:900px;
-	background: #00e5ff;
+	background-color: #00e5ff;
 }
 
 header {
-	background: #00e5ff;
+	background-color: #00e5ff;
 	display: block;
 	color: #dc13a1;
 	text-align: center;
@@ -104,7 +104,7 @@ nav h3 {
 }
 
 #container {
-	background-color: #888;
+	background-color: #ffee58;
 }
 
 article {

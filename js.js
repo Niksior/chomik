@@ -31,13 +31,12 @@ function dead(){
 	
 }
 
-function dead2(){
-	var k=0.1;
-	var a;
+
+	var l=0.1;
+	var s;
 	do
 	{
-		a=0.1 + k;
-		if(a==10) console.log="tan";
+		s=0.1 + l;
+		if(s==10) console.log="tan";
 	}
-	while(a==100);
-}
+	while(s==100);

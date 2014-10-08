@@ -39,4 +39,4 @@ function dead(){
 		s=0.1 + l;
 		if(s==10) console.log="tan";
 	}
-	while(s==100);
+	while(s!=100);

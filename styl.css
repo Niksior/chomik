@@ -3,11 +3,11 @@ body {
 	font-family: 'Titillium Web', sans-serif;
 	margin: 0px auto;
 	max-width:900px;
-	background-color: #00e5ff;
+	background-color: #004d40;
 }
 
 header {
-	background-color: #00e5ff;
+	background-color: #004d40;
 	display: block;
 	color: #dc13a1;
 	text-align: center;
@@ -41,7 +41,7 @@ h3 {
 
 lCorner {
 	color: #a8a730;
-	background-color: #00e5ff;
+	background-color: #004d40;
 	-webkit-box-shadow: 2px 2px 20px #888;
 	-webkit-transform: rotate(-45deg);
 	-moz-box-shadow: 2px 2px 20px #888;
@@ -55,7 +55,7 @@ lCorner {
 
 rCorner {
 	color: #a8a730;
-	background-color: #00e5ff;
+	background-color: #004d40;
 	-webkit-box-shadow: 2px 2px 20px #888;
 	-webkit-transform: rotate(45deg);
 	-moz-box-shadow: 2px 2px 20px #888;

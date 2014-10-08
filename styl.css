@@ -12,6 +12,7 @@ header {
 	color: #dc13a1;
 	text-align: center;
 	cursor: move;
+	position: fixed;
 	
 }
 
@@ -157,7 +158,7 @@ aside p {
 footer {
 	clear: both;
 	display: block;
-	background-color: #960000;
+	background-color: #bf360c;
 	color: #FFFFFF;
 	text-align: center;
 	padding: 15px;

@@ -104,11 +104,11 @@ nav h3 {
 }
 
 #container {
-	background-color: #ffee58;
+	background-color: #9e9d24;
 }
 
 article {
-	background-color: #eee;
+	background-color: #cddc39;
 	display: block;
 	max-width: 620px;
 	float: center;
@@ -116,11 +116,6 @@ article {
 	padding: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
-	border-radius: 10px;
-	-webkit-box-shadow: 2px 2px 20px #888;
-	-webkit-transform: rotate(-10deg);
-	-moz-box-shadow: 2px 2px 20px #888;
-	-moz-transform: rotate(-10deg);
 }
 
 article header {

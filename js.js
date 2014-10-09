@@ -32,11 +32,11 @@ function dead(){
 }
 
 
-	var l=0.1;
-	var s;
-	do
-	{
-		s=0.1 + l;
-		if(s==10) console.log="tan";
-	}
-	while(s!=100);
+	//var l=0.1;
+	//var s;
+	//do
+	//{
+	//	s=0.1 + l;
+	//	if(s==10) console.log="tan";
+	//}
+	//while(s!=100);

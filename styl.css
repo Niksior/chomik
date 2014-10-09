@@ -3,17 +3,22 @@ body {
 	font-family: 'Titillium Web', sans-serif;
 	margin: 0px auto;
 	max-width:900px;
-	background-color: #004d40;
+	background-color: #009688;
+	box-shadow: 2px 2px 20px #000000;
 }
 
 header {
-	background-color: #004d40;
+	background-color: #009688;
 	display: block;
-	color: #dc13a1;
+	color: #FFFFFF;
 	text-align: center;
 	cursor: move;
 
 	
+}
+
+header h1 {
+	background-color: #009688;
 }
 
 header h2 {
@@ -23,25 +28,24 @@ header h2 {
 h1 {
 	font-size: 72px;
 	margin: 0px;
-	color: #e7c748;
+	color: #FFFFFF;
 }
 
 h2 {
 	font-size: 24px;
 	margin: 0px;
 	text-align: center;
-	color: #bc1861;
+	color: #FFFFFF;
 }
 
 h3 {
 	font-size: 18px;
 	margin: 0px;
 	text-align: center;
-	color: #cdcc51;
+	color: #FFFFFF;
 }
 
 lCorner {
-	color: #a8a730;
 	-webkit-box-shadow: 2px 2px 20px #888;
 	-webkit-transform: rotate(-45deg);
 	-moz-box-shadow: 2px 2px 20px #888;
@@ -51,10 +55,10 @@ lCorner {
 	top: 50px;
 	left: -120px;
 	text-align:center;
+	box-shadow: 2px 2px 10px #000000;
 }
 
 rCorner {
-	color: #a8a730;
 	-webkit-box-shadow: 2px 2px 20px #888;
 	-webkit-transform: rotate(45deg);
 	-moz-box-shadow: 2px 2px 20px #888;
@@ -64,6 +68,7 @@ rCorner {
 	top: -30px;
 	right: -200px;
 	text-align:center;
+	box-shadow: 2px 2px 10px #000000;
 }
 
 tro {
@@ -71,14 +76,14 @@ tro {
 	font-size: 25px;
 	margin: 0px;
 	text-align:center;
-	color: #99CC33;
+	color: #FFFFFF;
 }
 
 nav {
 	display: block;
 	width: 25%;
 	float: right;
-	color: #960000;
+	color: #FFFFFF;
 	font-size: 30px;
 }
 
@@ -93,13 +98,13 @@ nav a:link, nav a:visited{
 }
 
 nav a:hover {
-	color: white;
+	color: #000000;
 	background-color: #F47D31;
 }
 
 nav h3 {
 	margin: 15px;
-	color: white;
+	color: #FFFFFF;
 }
 
 #container {
@@ -143,12 +148,12 @@ aside {
 
 aside h3 {
 	margin: 15px;
-	color: white;
+	color: #000000;
 }
 
 aside p {
 	margin: 15px;
-	color: white;
+	color: #000000;
 	font-weight: bold;
 	font-style: italic;
 }
@@ -164,28 +169,13 @@ footer {
 
 footer h2 {
 	font-size: 15px;
-	color: white;
+	color: #FFFFFF;
 }
 
 a {
-	color: #F47D31;
+	color: #000000;
 }
 
 a:hover {
-	text-decoration: underline;
-}
-
-td {
-	border-style: solid;
-	border-width: 1px;
-	font-size: 300%;
-}
-
-td:hover {
-	background-color: cyan;
-}
-
-#hoverResult {
-	color: green;
-	font-size: 200%
+	text-decoration: none;
 }

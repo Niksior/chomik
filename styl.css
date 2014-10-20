@@ -2,7 +2,8 @@
 body {
 	font-family: 'Titillium Web', sans-serif;
 	margin: 0px auto;
-	max-width:900px;
+	background-size: auto auto;
+	size: auto auto;
 	background-color: #009688;
 	box-shadow: 2px 2px 20px #000000;
 }

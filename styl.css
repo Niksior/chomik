@@ -6,6 +6,8 @@ body {
 	size: auto auto;
 	background-color: #009688;
 	box-shadow: 2px 2px 20px #000000;
+	background-position: center center;
+	position: center center;
 }
 
 header {

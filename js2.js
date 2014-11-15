@@ -76,7 +76,7 @@ function drawTrails() {
 	context.fill();
 	context.strokeStyle = '#80cbc4';
 	context.fillStyle = '#663300';
-	context.fillRect(-5, -100, 10, 50);
+	context.drawImage(obraz, -5, -100, 10 ,50);
 	context.stroke();
 	
 

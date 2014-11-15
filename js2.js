@@ -58,6 +58,9 @@ function createCanopyPath(context) {
 
 window.addEventListener("load", drawDiagonal, true);
 
+var obraz = new Image();
+obraz.src = "png.png";
+
 function drawTrails() {
 	var canvas = document.getElementById('trails');
 	var context = canvas.getContext('2d');
@@ -72,10 +75,14 @@ function drawTrails() {
 	context.fillStyle = '#00695c';
 	context.fill();
 	context.strokeStyle = '#80cbc4';
+	context.fillStyle = '#663300';
+	context.fillRect(-5, -50, 10, 50);
 	context.stroke();
+	
 
 	context.restore();
 
+	
 
 	context.save();
 

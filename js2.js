@@ -38,18 +38,18 @@ function drawDiagonal() {
 
 function createCanopyPath(context) {
 	context.beginPath();
-	context.moveTo(-25, -50);
-	context.lineTo(-10, -80);
-	context.lineTo(-20, -80);
-	context.lineTo(-5, -110);
-	context.lineTo(-15, -110);
-	context.lineTo(0, -140);
+	context.moveTo(-25, -100);
+	context.lineTo(-10, -130);
+	context.lineTo(-20, -130);
+	context.lineTo(-5, -160);
+	context.lineTo(-15, -160);
+	context.lineTo(0, -190);
 
-	context.lineTo(15, -110);
-	context.lineTo(5, -110);
-	context.lineTo(20, -80);
-	context.lineTo(10, -80);
-	context.lineTo(25, -50);
+	context.lineTo(15, -160);
+	context.lineTo(5, -160);
+	context.lineTo(20, -130);
+	context.lineTo(10, -130);
+	context.lineTo(25, -100);
 
 	context.closePath();
 	
@@ -76,7 +76,7 @@ function drawTrails() {
 	context.fill();
 	context.strokeStyle = '#80cbc4';
 	context.fillStyle = '#663300';
-	context.fillRect(-5, -50, 10, 50);
+	context.fillRect(-5, -100, 10, 50);
 	context.fill();
 	context.stroke();
 	

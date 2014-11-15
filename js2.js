@@ -22,7 +22,7 @@ function lvl()
 
 function drawDiagonal() {
 	var canvas = document.getElementById('diagonal');
-	var context = canvas.getContext('2d');
+
 
 	context.save();
 
@@ -60,7 +60,7 @@ window.addEventListener("load", drawDiagonal, true);
 
 function drawTrails() {
 	var canvas = document.getElementById('trails');
-	var context = canvas.getContext('2d');
+
 
 	context.save();
 	context.translate(130, 250);

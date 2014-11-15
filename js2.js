@@ -73,6 +73,23 @@ function drawTrails() {
 	context.fill();
 	context.strokeStyle = '#80cbc4';
 	context.stroke();
+
+	context.restore();
+
+
+	context.save();
+
+	context.translate(-10, 350);
+	context.beginPath();
+
+	context.moveTo(0, 0);
+	context.quadraticCurveTo(170, -50 260, -190);
+	context.quadraticCurveTo(310, -250, 410, -250);
+	
+	context.strokeStyle = '#663300';
+	context.lineWidth = 20;
+	context.stroke();
+
 	context.restore();
 }
 

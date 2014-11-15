@@ -99,7 +99,7 @@ function drawTrails() {
 
 	context.moveTo(0, 0);
 	context.quadraticCurveTo(170, -100, 260, -220);
-	context.quadraticCurveTo(310, -300, 500, -290);
+	context.quadraticCurveTo(310, -300, 530, -290);
 	
 	context.strokeStyle = '#663300';
 	context.lineWidth = 20;

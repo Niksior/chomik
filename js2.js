@@ -60,7 +60,7 @@ window.addEventListener("load", drawDiagonal, true);
 
 
 var obraz = new Image();
-obraz.src = "/chomik/png.png";
+obraz.src = "/chomik/jpg.jpg";
 
 
 obraz.onload = function () {

@@ -90,7 +90,7 @@ function drawTrails() {
 	context.lineWidth = 20;
 	context.stroke();
 
-	
+	context.restore();	
 }
 
 window.addEventListener("load", drawTrails, true);

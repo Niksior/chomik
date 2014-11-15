@@ -77,7 +77,6 @@ function drawTrails() {
 	context.strokeStyle = '#80cbc4';
 	context.fillStyle = '#663300';
 	context.fillRect(-5, -100, 10, 50);
-	context.fill();
 	context.stroke();
 	
 
@@ -87,12 +86,12 @@ function drawTrails() {
 
 	context.save();
 
-	context.translate(-10, 350);
+	context.translate(-10, 300);
 	context.beginPath();
 
 	context.moveTo(0, 0);
-	context.quadraticCurveTo(170, -50, 260, -190);
-	context.quadraticCurveTo(310, -250, 410, -250);
+	context.quadraticCurveTo(170, -100, 260, -240);
+	context.quadraticCurveTo(310, -300, 410, -290);
 	
 	context.strokeStyle = '#663300';
 	context.lineWidth = 20;

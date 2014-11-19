@@ -15,7 +15,7 @@ if (Modernizr.geolocation) {
 
 
 
-var d=100;
+var d=0;
 
 
 function dead(){
@@ -28,7 +28,7 @@ function dead(){
 		console.log="kupa";
 		d++;
 	}
-	while(d<10);
+	while(d<5);
 	
 }
 

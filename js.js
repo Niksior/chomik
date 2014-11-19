@@ -15,7 +15,7 @@ if (Modernizr.geolocation) {
 
 
 
-var d=0;
+var d=100;
 
 
 function dead(){

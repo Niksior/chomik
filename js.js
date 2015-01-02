@@ -46,11 +46,4 @@ function dead(){
 
 //jak dodac zdjecie
 
-var ona = new Image();
-ona.src = "/chomik/1.png";
 
-var obraz = new Image();
-obraz.src = "/chomik/jpg.jpg";
-
-var gravel = new Image(); 
-gravel.src = "/chomik/5.jpg";

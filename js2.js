@@ -84,7 +84,14 @@ function createCanopyPath(context) {
 window.addEventListener("load", drawDiagonal, true);
 
 
+var ona = new Image();
+ona.src = "/chomik/1.png";
 
+var obraz = new Image();
+obraz.src = "/chomik/jpg.jpg";
+
+var gravel = new Image(); 
+gravel.src = "/chomik/5.jpg";
 
 
 obraz.onload = function () {

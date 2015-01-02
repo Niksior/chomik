@@ -31,7 +31,7 @@ function drawTree(context) {
 
 	var canopyShadow = context.createLinearGradient ( 0, -50, 0, 0);
 	canopyShadow.addColorStop (0, 'rgba(0, 0, 0, 0.5)');
-	canopyShadow.addColorStop (0.2, 'rgba(0, 0, 0, 0.0)')'
+	canopyShadow.addColorStop (0.2, 'rgba(0, 0, 0, 0.0)');
 	context.dillStyle = canopyShadow;
 	context.fillRect (-5, -50, 10, 50);
 

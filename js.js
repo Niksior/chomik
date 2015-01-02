@@ -32,6 +32,7 @@ function dead(){
 	
 }
 
+//troll
 
 	//var l=0.1;
 	//var s;
@@ -41,3 +42,15 @@ function dead(){
 	//	if(s==10) console.log="tan";
 	//}
 	//while(s!=100);
+
+
+//jak dodac zdjecie
+
+var ona = new Image();
+ona.src = "/chomik/1.png";
+
+var obraz = new Image();
+obraz.src = "/chomik/jpg.jpg";
+
+var gravel = new Image(); 
+gravel.src = "/chomik/5.jpg";

@@ -94,9 +94,6 @@ var gravel = new Image();
 gravel.src = "/chomik/5.jpg";
 
 
-}	
-
-
 function drawTrails() {
 	var canvas = document.getElementById('trails');
 	var context = canvas.getContext('2d');
@@ -165,3 +162,4 @@ obraz.onload = function () {
 
 gravel.onload = function () {
 	drawTrials();
+}

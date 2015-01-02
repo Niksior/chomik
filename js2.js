@@ -157,9 +157,9 @@ window.addEventListener("load", drawTrails, true);
 
 
 obraz.onload = function () {
-	drawTrials();
+	drawTrails();
 }	
 
 gravel.onload = function () {
-	drawTrials();
+	drawTrails();
 }

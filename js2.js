@@ -94,12 +94,6 @@ var gravel = new Image();
 gravel.src = "/chomik/5.jpg";
 
 
-obraz.onload = function () {
-	drawTrials();
-}	
-
-gravel.onload = function () {
-	drawTrials();
 }	
 
 
@@ -163,3 +157,11 @@ function drawTrails() {
 }
 
 window.addEventListener("load", drawTrails, true);
+
+
+obraz.onload = function () {
+	drawTrials();
+}	
+
+gravel.onload = function () {
+	drawTrials();
